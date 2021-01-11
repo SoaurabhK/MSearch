@@ -20,6 +20,7 @@
 		B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC825ADA5C8006ED089 /* CacheType.swift */; };
 		B509CFCD25ADA5C8006ED089 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC925ADA5C8006ED089 /* ImageCache.swift */; };
 		B509CFCE25ADA5C8006ED089 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */; };
+		B509CFD125ADA672006ED089 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFD025ADA672006ED089 /* Connectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B509CFC825ADA5C8006ED089 /* CacheType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheType.swift; sourceTree = "<group>"; };
 		B509CFC925ADA5C8006ED089 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+		B509CFD025ADA672006ED089 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				B509CFC325ADA5AD006ED089 /* Endpoint+Image.swift */,
 				B509CFBD25ADA4E6006ED089 /* URLSession+Load.swift */,
 				B509CFC025ADA4EE006ED089 /* Error.swift */,
+				B509CFD025ADA672006ED089 /* Connectivity.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				B509CFBB25ADA4DD006ED089 /* Endpoint.swift in Sources */,
 				B509CFBE25ADA4E6006ED089 /* URLSession+Load.swift in Sources */,
 				B509CFC125ADA4EE006ED089 /* Error.swift in Sources */,
+				B509CFD125ADA672006ED089 /* Connectivity.swift in Sources */,
 				B509CFC425ADA5AD006ED089 /* Endpoint+Image.swift in Sources */,
 				B509CF9F25ADA080006ED089 /* SceneDelegate.swift in Sources */,
 				B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */,
