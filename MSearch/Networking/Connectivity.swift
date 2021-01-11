@@ -5,6 +5,7 @@
 //  Created by Soaurabh Kakkar on 11/01/21.
 //
 
+// Not using Connectivity for now, but it can be used for real time network updates later.
 import Network
 
 /// Connectivity wraps network reachability using NWPathMonitor

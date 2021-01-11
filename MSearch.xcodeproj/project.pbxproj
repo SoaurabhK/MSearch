@@ -169,9 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				B509CFC825ADA5C8006ED089 /* CacheType.swift */,
-				B509CFC725ADA5C8006ED089 /* DiskCache.swift */,
 				B509CFC925ADA5C8006ED089 /* ImageCache.swift */,
 				B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */,
+				B509CFC725ADA5C8006ED089 /* DiskCache.swift */,
 			);
 			path = ImageCache;
 			sourceTree = "<group>";
