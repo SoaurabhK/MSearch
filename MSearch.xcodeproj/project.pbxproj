@@ -38,6 +38,7 @@
 		B509D00725ADAB5B006ED089 /* UIImage+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */; };
 		B509D00A25ADAF2C006ED089 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */; };
 		B509D00D25ADAFF7006ED089 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */; };
+		B509D01025ADB1D7006ED089 /* Array+Uniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00F25ADB1D7006ED089 /* Array+Uniques.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Constants.swift"; sourceTree = "<group>"; };
 		B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
 		B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		B509D00F25ADB1D7006ED089 /* Array+Uniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Uniques.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				B509CFE325ADA95E006ED089 /* Dynamic.swift */,
 				B509CFE625ADA980006ED089 /* MovieSearchViewModel.swift */,
 				B509CFE925ADA990006ED089 /* MovieCollectionViewModel.swift */,
+				B509D00F25ADB1D7006ED089 /* Array+Uniques.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				B509CFF425ADA9B9006ED089 /* MovieCollectionViewCell.swift in Sources */,
 				B509CF9F25ADA080006ED089 /* SceneDelegate.swift in Sources */,
 				B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */,
+				B509D01025ADB1D7006ED089 /* Array+Uniques.swift in Sources */,
 				B509D00125ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

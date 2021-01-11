@@ -96,7 +96,7 @@ class MovieCollectionViewModel: NSObject {
         
         // Better: Delegate this to navigation co-ordinator which will set state to populated
         if case let .populated(existingMovies) = playlistViewModel.state.value {
-            playlistViewModel.state.value = .populated(existingMovies + selectedMovies)
+            playlistViewModel.state.value = .populated((existingMovies + selectedMovies).uniques)
         } else {
             playlistViewModel.state.value = .populated(selectedMovies)
         }
