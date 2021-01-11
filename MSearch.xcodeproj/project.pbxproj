@@ -15,6 +15,11 @@
 		B509CFBB25ADA4DD006ED089 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFBA25ADA4DD006ED089 /* Endpoint.swift */; };
 		B509CFBE25ADA4E6006ED089 /* URLSession+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFBD25ADA4E6006ED089 /* URLSession+Load.swift */; };
 		B509CFC125ADA4EE006ED089 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC025ADA4EE006ED089 /* Error.swift */; };
+		B509CFC425ADA5AD006ED089 /* Endpoint+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC325ADA5AD006ED089 /* Endpoint+Image.swift */; };
+		B509CFCB25ADA5C8006ED089 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC725ADA5C8006ED089 /* DiskCache.swift */; };
+		B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC825ADA5C8006ED089 /* CacheType.swift */; };
+		B509CFCD25ADA5C8006ED089 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFC925ADA5C8006ED089 /* ImageCache.swift */; };
+		B509CFCE25ADA5C8006ED089 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		B509CFBA25ADA4DD006ED089 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		B509CFBD25ADA4E6006ED089 /* URLSession+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Load.swift"; sourceTree = "<group>"; };
 		B509CFC025ADA4EE006ED089 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		B509CFC325ADA5AD006ED089 /* Endpoint+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Endpoint+Image.swift"; sourceTree = "<group>"; };
+		B509CFC725ADA5C8006ED089 /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		B509CFC825ADA5C8006ED089 /* CacheType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheType.swift; sourceTree = "<group>"; };
+		B509CFC925ADA5C8006ED089 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		B509CF9B25ADA080006ED089 /* MSearch */ = {
 			isa = PBXGroup;
 			children = (
+				B509CFC625ADA5B9006ED089 /* ImageCache */,
 				B509CFB925ADA4C7006ED089 /* Networking */,
 				B509CFB425ADA30A006ED089 /* View */,
 				B509CFB225ADA2EB006ED089 /* Resources */,
@@ -99,10 +110,22 @@
 			isa = PBXGroup;
 			children = (
 				B509CFBA25ADA4DD006ED089 /* Endpoint.swift */,
+				B509CFC325ADA5AD006ED089 /* Endpoint+Image.swift */,
 				B509CFBD25ADA4E6006ED089 /* URLSession+Load.swift */,
 				B509CFC025ADA4EE006ED089 /* Error.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		B509CFC625ADA5B9006ED089 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				B509CFC825ADA5C8006ED089 /* CacheType.swift */,
+				B509CFC725ADA5C8006ED089 /* DiskCache.swift */,
+				B509CFC925ADA5C8006ED089 /* ImageCache.swift */,
+				B509CFCA25ADA5C8006ED089 /* MemoryCache.swift */,
+			);
+			path = ImageCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,12 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B509CFCD25ADA5C8006ED089 /* ImageCache.swift in Sources */,
 				B509CFA125ADA080006ED089 /* ViewController.swift in Sources */,
+				B509CFCB25ADA5C8006ED089 /* DiskCache.swift in Sources */,
 				B509CF9D25ADA080006ED089 /* AppDelegate.swift in Sources */,
+				B509CFCE25ADA5C8006ED089 /* MemoryCache.swift in Sources */,
 				B509CFBB25ADA4DD006ED089 /* Endpoint.swift in Sources */,
 				B509CFBE25ADA4E6006ED089 /* URLSession+Load.swift in Sources */,
 				B509CFC125ADA4EE006ED089 /* Error.swift in Sources */,
+				B509CFC425ADA5AD006ED089 /* Endpoint+Image.swift in Sources */,
 				B509CF9F25ADA080006ED089 /* SceneDelegate.swift in Sources */,
+				B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

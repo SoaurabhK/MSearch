@@ -11,6 +11,15 @@ protocol Describable {
     var description: String { get }
 }
 
+/// Signals that an image couldn't be constructed from nil or bad data
+struct ImageError: Error, Describable {
+    init() { }
+    
+    var description: String {
+        return "Image couldn't be constructed"
+    }
+}
+
 /// Signals that a response's data was unexpectedly nil.
 struct NoDataError: Error, Describable {
     init() { }
