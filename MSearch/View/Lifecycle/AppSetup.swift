@@ -10,7 +10,7 @@ import UIKit
 class AppSetup {
     
     /// Initialises view heirarchy for the application
-    /// - Parameter window: Application window 
+    /// - Parameter window: Application window
     static func initViewHeirarchy(for window: UIWindow) {
         window.backgroundColor = .white
         
@@ -29,7 +29,11 @@ class AppSetup {
         let movieModel = MovieModel()
         let movieViewModel = MovieSearchViewModel(model: movieModel)
         searchNavigationController.viewControllers = [MovieSearchViewController(viewModel: movieViewModel)]
-                
+        
+        let playlistViewModel = MovieCollectionViewModel(model: movieModel, state: Dynamic(.empty(Constant.noPlaylist)), mode: Dynamic(.view))
+        let playlistViewController = PlaylistViewController(viewModel: playlistViewModel)
+        playlistNavigationController.viewControllers = [playlistViewController]
+        
         window.makeKeyAndVisible()
     }
 }

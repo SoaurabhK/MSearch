@@ -36,6 +36,8 @@
 		B509D00125ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00025ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift */; };
 		B509D00425ADAB56006ED089 /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00325ADAB56006ED089 /* UIViewController+Child.swift */; };
 		B509D00725ADAB5B006ED089 /* UIImage+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */; };
+		B509D00A25ADAF2C006ED089 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */; };
+		B509D00D25ADAFF7006ED089 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		B509D00025ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+ImageButton.swift"; sourceTree = "<group>"; };
 		B509D00325ADAB56006ED089 /* UIViewController+Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Constants.swift"; sourceTree = "<group>"; };
+		B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 				B509CFED25ADA9AD006ED089 /* MovieSearchViewController.swift */,
 				B509CFF025ADA9B4006ED089 /* MovieCollectionViewController.swift */,
 				B509CFF325ADA9B9006ED089 /* MovieCollectionViewCell.swift */,
+				B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */,
 				B509CFF625ADAA00006ED089 /* StateView.swift */,
 				B509CFF925ADAA80006ED089 /* Constants.swift */,
 				B509CFB625ADA31F006ED089 /* Lifecycle */,
@@ -202,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				B509D00025ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift */,
+				B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */,
 				B509D00325ADAB56006ED089 /* UIViewController+Child.swift */,
 				B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */,
 			);
@@ -281,12 +287,14 @@
 				B509CFD525ADA713006ED089 /* SearchResponse.swift in Sources */,
 				B509CFCD25ADA5C8006ED089 /* ImageCache.swift in Sources */,
 				B509CFDB25ADA71C006ED089 /* Throwable.swift in Sources */,
+				B509D00D25ADAFF7006ED089 /* PlaylistViewController.swift in Sources */,
 				B509CFE725ADA980006ED089 /* MovieSearchViewModel.swift in Sources */,
 				B509CFCB25ADA5C8006ED089 /* DiskCache.swift in Sources */,
 				B509CFFA25ADAA80006ED089 /* Constants.swift in Sources */,
 				B509CF9D25ADA080006ED089 /* AppDelegate.swift in Sources */,
 				B509CFCE25ADA5C8006ED089 /* MemoryCache.swift in Sources */,
 				B509CFBB25ADA4DD006ED089 /* Endpoint.swift in Sources */,
+				B509D00A25ADAF2C006ED089 /* UIViewController+Toast.swift in Sources */,
 				B509CFEA25ADA990006ED089 /* MovieCollectionViewModel.swift in Sources */,
 				B509CFFD25ADAAD0006ED089 /* AppSetup.swift in Sources */,
 				B509D00725ADAB5B006ED089 /* UIImage+Constants.swift in Sources */,

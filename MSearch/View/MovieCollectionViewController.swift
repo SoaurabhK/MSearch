@@ -67,7 +67,18 @@ class MovieCollectionViewController: UIViewController {
     }
     
     func addSelectedItemsToPlaylist() {
+        guard let selectedRows = movieCollectionView.indexPathsForSelectedItems?.map({ $0.row }),
+              !selectedRows.isEmpty else {
+            return
+        }
         
+        // Better: Delegate this to navigation/flow co-ordinator
+        let playlistNavController = self.parent?.navigationController?.tabBarController?.viewControllers?.last as? UINavigationController
+        let playlistVC = playlistNavController?.viewControllers.first as? PlaylistViewController
+        guard let playlistViewModel = playlistVC?.playlistViewModel else { return }
+        
+        self.showToast(message: movieCollectionViewModel.toastMessage(for: selectedRows))
+        movieCollectionViewModel.add(selectedRows, to: playlistViewModel)
     }
     
     func updateUI() {
