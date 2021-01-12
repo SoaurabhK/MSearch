@@ -1,7 +1,7 @@
 MSearch: Search your favorite movies from OMDB API
 ======================================
 
-```MSearch ``` is a quick reference implementation which allows a user to search for, and create a playlist from movies provided by the OMDB.
+```MSearch``` is a quick reference implementation which allows a user to search for, and create a playlist from movies provided by the OMDB.
 
 ## How It Works
 I think it can be best described using screenshots below. Key functionalities includes search, select favorite movies and add to playlist:
