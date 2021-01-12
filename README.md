@@ -6,15 +6,15 @@ MSearch: Search your favorite movies from OMDB API
 ## How It Works
 I think it can be best described using screenshots below. Key functionalities includes search, select favorite movies and add to playlist:
 <p float="left">
-  <img src="MSearch/Resources/Screenshots/Empty.PNG" width = 300>
-  <img src="MSearch/Resources/Screenshots/Search.PNG" width = 300>
-  <img src="MSearch/Resources/Screenshots/Select.PNG" width = 300>
+  <img src="MSearch/Resources/Screenshots/Empty.PNG" width = 225>
+  <img src="MSearch/Resources/Screenshots/Search.PNG" width = 225>
+  <img src="MSearch/Resources/Screenshots/Select.PNG" width = 225>
 </p>
 
 <p float="left">
-<img src="MSearch/Resources/Screenshots/AddToPlaylist.PNG" width = 300>
-<img src="MSearch/Resources/Screenshots/Playlist.PNG" width = 300>
-<img src="MSearch/Resources/Screenshots/Offline.PNG" width = 300>
+<img src="MSearch/Resources/Screenshots/AddToPlaylist.PNG" width = 225>
+<img src="MSearch/Resources/Screenshots/Playlist.PNG" width = 225>
+<img src="MSearch/Resources/Screenshots/Offline.PNG" width = 225>
 </p>
 
 ## What's Inside
