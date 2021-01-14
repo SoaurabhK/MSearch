@@ -123,6 +123,7 @@
 				B509CFD325ADA703006ED089 /* Model */,
 				B509CFB425ADA30A006ED089 /* View */,
 				B509CFE225ADA94D006ED089 /* ViewModel */,
+				B509D03325B07D2A006ED089 /* Coordinator */,
 				B509CFB225ADA2EB006ED089 /* Resources */,
 			);
 			path = MSearch;
@@ -157,11 +158,6 @@
 			children = (
 				B509CF9C25ADA080006ED089 /* AppDelegate.swift */,
 				B509CF9E25ADA080006ED089 /* SceneDelegate.swift */,
-				B509D01A25B04F54006ED089 /* Coordinator.swift */,
-				B509CFFC25ADAAD0006ED089 /* AppCoordinator.swift */,
-				B509D01D25B04FB6006ED089 /* MovieSearchCoordinator.swift */,
-				B509D02425B0537F006ED089 /* PlaylistCoordinator.swift */,
-				B509D02F25B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift */,
 				B509D02025B050CB006ED089 /* MainTabBarController.swift */,
 				B509CFA725ADA082006ED089 /* LaunchScreen.storyboard */,
 			);
@@ -230,6 +226,18 @@
 				B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B509D03325B07D2A006ED089 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B509D01A25B04F54006ED089 /* Coordinator.swift */,
+				B509CFFC25ADAAD0006ED089 /* AppCoordinator.swift */,
+				B509D01D25B04FB6006ED089 /* MovieSearchCoordinator.swift */,
+				B509D02425B0537F006ED089 /* PlaylistCoordinator.swift */,
+				B509D02F25B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
