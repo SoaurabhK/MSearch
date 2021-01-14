@@ -32,13 +32,18 @@
 		B509CFF425ADA9B9006ED089 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFF325ADA9B9006ED089 /* MovieCollectionViewCell.swift */; };
 		B509CFF725ADAA00006ED089 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFF625ADAA00006ED089 /* StateView.swift */; };
 		B509CFFA25ADAA80006ED089 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFF925ADAA80006ED089 /* Constants.swift */; };
-		B509CFFD25ADAAD0006ED089 /* AppSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFFC25ADAAD0006ED089 /* AppSetup.swift */; };
+		B509CFFD25ADAAD0006ED089 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509CFFC25ADAAD0006ED089 /* AppCoordinator.swift */; };
 		B509D00125ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00025ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift */; };
 		B509D00425ADAB56006ED089 /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00325ADAB56006ED089 /* UIViewController+Child.swift */; };
 		B509D00725ADAB5B006ED089 /* UIImage+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */; };
 		B509D00A25ADAF2C006ED089 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */; };
 		B509D00D25ADAFF7006ED089 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */; };
 		B509D01025ADB1D7006ED089 /* Array+Uniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D00F25ADB1D7006ED089 /* Array+Uniques.swift */; };
+		B509D01B25B04F54006ED089 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D01A25B04F54006ED089 /* Coordinator.swift */; };
+		B509D01E25B04FB6006ED089 /* MovieSearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D01D25B04FB6006ED089 /* MovieSearchCoordinator.swift */; };
+		B509D02125B050CB006ED089 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D02025B050CB006ED089 /* MainTabBarController.swift */; };
+		B509D02525B0537F006ED089 /* PlaylistCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D02425B0537F006ED089 /* PlaylistCoordinator.swift */; };
+		B509D03025B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D02F25B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,13 +74,18 @@
 		B509CFF325ADA9B9006ED089 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		B509CFF625ADAA00006ED089 /* StateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		B509CFF925ADAA80006ED089 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B509CFFC25ADAAD0006ED089 /* AppSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSetup.swift; sourceTree = "<group>"; };
+		B509CFFC25ADAAD0006ED089 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B509D00025ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+ImageButton.swift"; sourceTree = "<group>"; };
 		B509D00325ADAB56006ED089 /* UIViewController+Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		B509D00625ADAB5B006ED089 /* UIImage+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Constants.swift"; sourceTree = "<group>"; };
 		B509D00925ADAF2C006ED089 /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
 		B509D00C25ADAFF7006ED089 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		B509D00F25ADB1D7006ED089 /* Array+Uniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Uniques.swift"; sourceTree = "<group>"; };
+		B509D01A25B04F54006ED089 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B509D01D25B04FB6006ED089 /* MovieSearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchCoordinator.swift; sourceTree = "<group>"; };
+		B509D02025B050CB006ED089 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B509D02425B0537F006ED089 /* PlaylistCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCoordinator.swift; sourceTree = "<group>"; };
+		B509D02F25B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToPlaylistCoordinatorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +155,14 @@
 		B509CFB625ADA31F006ED089 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
-				B509CFFC25ADAAD0006ED089 /* AppSetup.swift */,
 				B509CF9C25ADA080006ED089 /* AppDelegate.swift */,
 				B509CF9E25ADA080006ED089 /* SceneDelegate.swift */,
+				B509D01A25B04F54006ED089 /* Coordinator.swift */,
+				B509CFFC25ADAAD0006ED089 /* AppCoordinator.swift */,
+				B509D01D25B04FB6006ED089 /* MovieSearchCoordinator.swift */,
+				B509D02425B0537F006ED089 /* PlaylistCoordinator.swift */,
+				B509D02F25B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift */,
+				B509D02025B050CB006ED089 /* MainTabBarController.swift */,
 				B509CFA725ADA082006ED089 /* LaunchScreen.storyboard */,
 			);
 			path = Lifecycle;
@@ -288,6 +303,7 @@
 			files = (
 				B509CFD825ADA718006ED089 /* Movie.swift in Sources */,
 				B509CFD525ADA713006ED089 /* SearchResponse.swift in Sources */,
+				B509D02125B050CB006ED089 /* MainTabBarController.swift in Sources */,
 				B509CFCD25ADA5C8006ED089 /* ImageCache.swift in Sources */,
 				B509CFDB25ADA71C006ED089 /* Throwable.swift in Sources */,
 				B509D00D25ADAFF7006ED089 /* PlaylistViewController.swift in Sources */,
@@ -299,20 +315,24 @@
 				B509CFBB25ADA4DD006ED089 /* Endpoint.swift in Sources */,
 				B509D00A25ADAF2C006ED089 /* UIViewController+Toast.swift in Sources */,
 				B509CFEA25ADA990006ED089 /* MovieCollectionViewModel.swift in Sources */,
-				B509CFFD25ADAAD0006ED089 /* AppSetup.swift in Sources */,
+				B509CFFD25ADAAD0006ED089 /* AppCoordinator.swift in Sources */,
 				B509D00725ADAB5B006ED089 /* UIImage+Constants.swift in Sources */,
 				B509CFBE25ADA4E6006ED089 /* URLSession+Load.swift in Sources */,
 				B509D00425ADAB56006ED089 /* UIViewController+Child.swift in Sources */,
 				B509CFE425ADA95E006ED089 /* Dynamic.swift in Sources */,
 				B509CFC125ADA4EE006ED089 /* Error.swift in Sources */,
 				B509CFEE25ADA9AD006ED089 /* MovieSearchViewController.swift in Sources */,
+				B509D01E25B04FB6006ED089 /* MovieSearchCoordinator.swift in Sources */,
 				B509CFD125ADA672006ED089 /* Connectivity.swift in Sources */,
 				B509CFE025ADA7FE006ED089 /* MovieModel.swift in Sources */,
 				B509CFF725ADAA00006ED089 /* StateView.swift in Sources */,
 				B509CFC425ADA5AD006ED089 /* Endpoint+Image.swift in Sources */,
+				B509D01B25B04F54006ED089 /* Coordinator.swift in Sources */,
 				B509CFF125ADA9B4006ED089 /* MovieCollectionViewController.swift in Sources */,
+				B509D03025B06F7D006ED089 /* AddToPlaylistCoordinatorDelegate.swift in Sources */,
 				B509CFF425ADA9B9006ED089 /* MovieCollectionViewCell.swift in Sources */,
 				B509CF9F25ADA080006ED089 /* SceneDelegate.swift in Sources */,
+				B509D02525B0537F006ED089 /* PlaylistCoordinator.swift in Sources */,
 				B509CFCC25ADA5C8006ED089 /* CacheType.swift in Sources */,
 				B509D01025ADB1D7006ED089 /* Array+Uniques.swift in Sources */,
 				B509D00125ADAB4F006ED089 /* UIBarButtonItem+ImageButton.swift in Sources */,

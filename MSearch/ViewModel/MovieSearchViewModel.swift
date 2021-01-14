@@ -16,9 +16,14 @@ enum Mode {
 
 /// MovieSearchViewModel holds presentation logic for the corresponding viewcontroller
 class MovieSearchViewModel: NSObject {
+    weak var coordinatorDelegate: AddToPlaylistCoordinatorDelegate?
     private let movieModel: MovieModel
     private(set) var mode: Dynamic<Mode>
-    private(set) lazy var movieCollectionViewModel = MovieCollectionViewModel(model: self.movieModel, state: Dynamic(.empty(Constant.noMovies)), mode: Dynamic(.view))
+    private(set) lazy var movieCollectionViewModel: MovieCollectionViewModel = {
+        let movieCollectionViewModel = MovieCollectionViewModel(model: self.movieModel, state: Dynamic(.empty(Constant.noMovies)), mode: Dynamic(.view))
+        movieCollectionViewModel.coordinatorDelegate = coordinatorDelegate
+        return movieCollectionViewModel
+    }()
     
     init(model: MovieModel, mode: Dynamic<Mode> = Dynamic(.view)) {
         movieModel = model

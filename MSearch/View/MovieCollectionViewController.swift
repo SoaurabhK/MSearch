@@ -72,13 +72,8 @@ class MovieCollectionViewController: UIViewController {
             return
         }
         
-        // Better: Delegate this to navigation/flow co-ordinator
-        let playlistNavController = self.parent?.navigationController?.tabBarController?.viewControllers?.last as? UINavigationController
-        let playlistVC = playlistNavController?.viewControllers.first as? PlaylistViewController
-        guard let playlistViewModel = playlistVC?.playlistViewModel else { return }
-        
         self.showToast(message: movieCollectionViewModel.toastMessage(for: selectedRows))
-        movieCollectionViewModel.add(selectedRows, to: playlistViewModel)
+        movieCollectionViewModel.add(selectedRows)
     }
     
     func updateUI() {
