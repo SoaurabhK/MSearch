@@ -61,7 +61,7 @@ class StateView: UIView {
             spinner.stopAnimating()
             textLabel.isHidden = !spinner.isHidden
             textLabel.text = text
-        default:
+        case .paging, .populated:
             break
         }
     }
