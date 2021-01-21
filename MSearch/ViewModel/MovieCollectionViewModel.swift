@@ -30,6 +30,7 @@ enum State {
 
 /// MovieCollectionViewModel holds presentation logic for the corresponding viewcontroller
 class MovieCollectionViewModel: NSObject {
+    weak var coordinatorDelegate: AddToPlaylistCoordinatorDelegate?
     private let movieModel: MovieModel
     let mode: Dynamic<Mode>
     let state: Dynamic<State>
@@ -89,17 +90,12 @@ class MovieCollectionViewModel: NSObject {
     }
     
     // MARK: Add to Playlist
-    func add(_ selectedRows: [Int],
-                       to playlistViewModel: MovieCollectionViewModel) {
+    func add(_ selectedRows: [Int]) {
         mode.value = .view
         let selectedMovies = selectedRows.map{ state.value.currentMovies[$0] }
         
-        // Better: Delegate this to navigation co-ordinator which will set state to populated
-        if case let .populated(existingMovies) = playlistViewModel.state.value {
-            playlistViewModel.state.value = .populated((existingMovies + selectedMovies).uniques)
-        } else {
-            playlistViewModel.state.value = .populated(selectedMovies)
-        }
+        // Delegate add to playlist behaviour to relevant coordinator
+        coordinatorDelegate?.add(movies: selectedMovies)
     }
     
     func toastMessage(for selectedRows: [Int]) -> String {
