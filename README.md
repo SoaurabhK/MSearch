@@ -28,4 +28,4 @@ PS: All the layers/components can be further extended/improved for production us
 3.  iOS 12 and later.
 
 ## License
-MSearch is licensed under the [MIT License](LICENSE.md)
+MSearch is licensed under the [MIT License](LICENSE.md).
